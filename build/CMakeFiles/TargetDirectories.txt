@@ -1,0 +1,4 @@
+/home/xinyi/sim/build/CMakeFiles/sim.dir
+/home/xinyi/sim/build/CMakeFiles/Simulation.dir
+/home/xinyi/sim/build/CMakeFiles/edit_cache.dir
+/home/xinyi/sim/build/CMakeFiles/rebuild_cache.dir

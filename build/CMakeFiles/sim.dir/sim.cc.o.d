@@ -636,6 +636,66 @@ CMakeFiles/sim.dir/sim.cc.o: /home/xinyi/sim/sim.cc \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VSDFilter.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4AnalysisManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VAnalysisManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4AnalysisManagerState.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4AnalysisVerbose.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4AnalysisUtilities.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VTBaseHnManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4HnInformation.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4BinScheme.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Fcn.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VAnalysisManager.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4HnManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4BaseAnalysisManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/ntuple_booking \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/cids \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/cid \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/typedefs \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/forit \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VNtupleManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VFileManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4BaseFileManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VTHnFileManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH1ToolsManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4THnToolsManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4THnManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4THnManager.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4THnMessenger.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4THnToolsManager.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4THnMessenger.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Tokenizer.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH2ToolsManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH3ToolsManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TP1ToolsManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TP2ToolsManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/h1d \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/h1 \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/b1 \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/base_histo \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/histo_data \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/axes \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/axis \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/eqT \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/h2d \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/h2 \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/b2 \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/h3d \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/h3 \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/b3 \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/p1d \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/p1 \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/profile_data \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/p2d \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/tools/histo/p2 \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc \
  /home/xinyi/sim/physics.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VPhysicsConstructor.hh \
@@ -651,6 +711,8 @@ CMakeFiles/sim.dir/sim.cc.o: /home/xinyi/sim/sim.cc \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ProductionCuts.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4MCCIndexConversionTable.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics_option4.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4OpticalPhysics.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4OpticalParameters.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4eMultipleScattering.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VMultipleScattering.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VContinuousDiscreteProcess.hh \
@@ -678,4 +740,14 @@ CMakeFiles/sim.dir/sim.cc.o: /home/xinyi/sim/sim.cc \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ParticleGun.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.hh
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.hh \
+ /home/xinyi/sim/run.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh \
+ /home/xinyi/sim/event.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserEventAction.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Event.hh \
+ /home/xinyi/sim/stepping.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Gamma.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Electron.hh

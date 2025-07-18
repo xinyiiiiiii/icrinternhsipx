@@ -10,8 +10,8 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 {
     G4NistManager *nist = G4NistManager::Instance();
 
-    
 
+    //aerogel
     G4Material *SiO2 = new G4Material("SiO2",2.201*g/cm3,2);
     SiO2->AddElement(nist->FindOrBuildElement("Si"),1);
     SiO2->AddElement(nist->FindOrBuildElement("O"),2);
@@ -36,7 +36,6 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     Aerogel->SetMaterialPropertiesTable(mptAerogel);
 
-    G4Material *water = nist->FindOrBuildMaterial("G4_WATER");
     
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
 
@@ -51,17 +50,48 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     
     G4VPhysicalVolume *physWorld = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.),logicWorld,"physWorld",0, false, 0, true);
 
+    
+
     G4Box *solidRadiator = new G4Box("solideRadiator",0.4*m,0.4*m,0.01*m);
 
     G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator,Aerogel,"logicalRadiator");
 
     G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.25*m),logicRadiator,"physRadiator",logicWorld,false,0,true);
 
-    /*G4Box *solidRadiator = new G4Box("solideRadiator",0.4*m,0.4*m,0.01*m);
+/*
+    //water
+
+    G4Material *water = nist->FindOrBuildMaterial("G4_WATER");
+
+    G4Box *solidRadiator = new G4Box("solideRadiator",0.4*m,0.4*m,0.01*m);
 
     G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator,water,"logicalRadiator");
 
-    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.1*m),logicRadiator,"physRadiator",logicWorld,false,0,true);*/
+    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.25*m),logicRadiator,"physRadiator",logicWorld,false,0,true);*/
+
+/*    //lead detector
+
+    G4Material *lead = nist->FindOrBuildMaterial("G4_Pb");
+
+    G4Box *solidRadiator = new G4Box("solideRadiator",0.4*m,0.4*m,0.01*m);
+
+    G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator,lead,"logicalRadiator");
+
+    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.25*m),logicRadiator,"physRadiator",logicWorld,false,0,true);
+*/
+
+/*
+    //silicon detector
+
+    G4Material *silicon = nist->FindOrBuildMaterial("G4_Si");
+
+    G4Box *solidRadiator = new G4Box("solideRadiator",0.4*m,0.4*m,0.01*m);
+
+    G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator,silicon,"logicalRadiator");
+
+    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.25*m),logicRadiator,"physRadiator",logicWorld,false,0,true);*/
+
+    //sensitive detector
 
     G4Box *solidDetector = new G4Box("solidDetector", 0.005*m,0.005*m,0.01*m);
 

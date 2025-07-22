@@ -655,6 +655,9 @@ CMakeFiles/sim.dir/action.cc.o: /home/xinyi/sim/action.cc \
 CMakeFiles/sim.dir/construction.cc.o: /home/xinyi/sim/construction.cc \
   /home/xinyi/sim/construction.hh \
   /home/xinyi/sim/detector.hh \
+  /home/xinyi/sim/event.hh \
+  /home/xinyi/sim/run.hh \
+  /home/xinyi/sim/stepping.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
@@ -756,6 +759,7 @@ CMakeFiles/sim.dir/construction.cc.o: /home/xinyi/sim/construction.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4DensityEffectCalculator.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.icc \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Electron.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ElectronOccupancy.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Element.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ElementTable.hh \
@@ -769,6 +773,7 @@ CMakeFiles/sim.dir/construction.cc.o: /home/xinyi/sim/construction.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Fcn.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ForceCondition.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GPILSelection.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Gamma.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.hh \
@@ -910,6 +915,8 @@ CMakeFiles/sim.dir/construction.cc.o: /home/xinyi/sim/construction.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UIdirectory.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UImessenger.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UIparameter.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserEventAction.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserStackingAction.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserSteppingAction.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserTrackingAction.hh \
@@ -1291,7 +1298,11 @@ CMakeFiles/sim.dir/construction.cc.o: /home/xinyi/sim/construction.cc \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
+  /home/xinyi/sim/construction.hh \
   /home/xinyi/sim/detector.hh \
+  /home/xinyi/sim/event.hh \
+  /home/xinyi/sim/run.hh \
+  /home/xinyi/sim/stepping.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
@@ -1363,6 +1374,8 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Allocator.hh \
@@ -1380,6 +1393,9 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4BinScheme.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4BlockingList.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4BlockingList.icc \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Box.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Box.icc \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4CSGSolid.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ClassificationOfNewTrack.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4CollectionNameVector.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4DCofThisEvent.hh \
@@ -1388,6 +1404,7 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4DensityEffectCalculator.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.icc \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Electron.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ElectronOccupancy.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Element.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ElementTable.hh \
@@ -1397,18 +1414,23 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4EventManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Exception.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ExceptionSeverity.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Exp.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Fcn.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ForceCondition.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GPILSelection.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Gamma.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GeomConfig.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GeomSplitter.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GeomTypes.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GlobalConfig.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4HCofThisEvent.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4HnInformation.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4HnManager.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ICRU90StoppingData.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4IonisParamElm.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4IonisParamMat.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Isotope.hh \
@@ -1432,13 +1454,18 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NavigationLogger.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Navigator.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Navigator.icc \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NistElementBuilder.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NistManager.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NistMaterialBuilder.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NoProcess.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Normal3D.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NormalNavigation.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NormalNavigation.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4OrderedTable.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PDefManager.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ParameterisedNavigation.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ParameterisedNavigation.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ParticleChange.hh \
@@ -1456,6 +1483,9 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVector.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVector.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVectorType.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Point3D.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Polyhedron.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Pow.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PrimaryParticle.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PrimaryTransformer.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PrimaryVertex.hh \
@@ -1495,6 +1525,7 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4String.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4SubEvent.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4SubEventTrackStack.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH1ToolsManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH2ToolsManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH3ToolsManager.hh \
@@ -1523,11 +1554,14 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TrackingMessenger.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TrajectoryContainer.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Transform3D.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TwoVector.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Types.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UIcommand.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UIdirectory.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UImessenger.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UIparameter.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserEventAction.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserStackingAction.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserSteppingAction.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserTrackingAction.hh \
@@ -1556,12 +1590,16 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VTHnFileManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VTouchable.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VTrajectory.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VUserEventInformation.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VUserTrackInformation.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Visible.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Visible.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VoxelNavigation.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VoxelNavigation.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/HepPolyhedron.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/Randomize.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/evtdefs.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/geomdefs.hh \
@@ -3178,6 +3216,7 @@ CMakeFiles/sim.dir/physics.cc.o: /home/xinyi/sim/physics.cc \
 
 CMakeFiles/sim.dir/run.cc.o: /home/xinyi/sim/run.cc \
   /home/xinyi/sim/run.hh \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Utility/defs.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
@@ -3205,6 +3244,7 @@ CMakeFiles/sim.dir/run.cc.o: /home/xinyi/sim/run.cc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.icc \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4String.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4String.icc \
+  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH1ToolsManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH2ToolsManager.hh \
   /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TH3ToolsManager.hh \

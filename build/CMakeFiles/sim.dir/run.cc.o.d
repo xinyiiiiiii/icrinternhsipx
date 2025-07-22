@@ -324,4 +324,6 @@ CMakeFiles/sim.dir/run.cc.o: /home/xinyi/sim/run.cc \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.hh \
- /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/SystemOfUnits.h

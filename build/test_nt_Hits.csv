@@ -1,0 +1,8 @@
+#class tools::wcsv::ntuple
+#title Hits
+#separator 44
+#vector_separator 59
+#column int fEvent
+#column double fX
+#column double fY
+#column double fZ

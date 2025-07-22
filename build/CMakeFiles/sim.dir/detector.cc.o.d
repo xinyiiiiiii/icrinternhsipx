@@ -551,4 +551,39 @@ CMakeFiles/sim.dir/detector.cc.o: /home/xinyi/sim/detector.cc \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4RunManagerKernel.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/rundefs.hh \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
- /usr/include/c++/13/bits/list.tcc
+ /usr/include/c++/13/bits/list.tcc /home/xinyi/sim/stepping.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Gamma.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Electron.hh \
+ /home/xinyi/sim/construction.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Box.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GeomTypes.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4GeomConfig.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4CSGSolid.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Polyhedron.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/HepPolyhedron.h \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4TwoVector.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Point3D.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Normal3D.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Visible.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Visible.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Box.icc \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NistManager.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4ICRU90StoppingData.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NistElementBuilder.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4NistMaterialBuilder.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Pow.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Exp.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/xinyi/sim/event.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserEventAction.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Event.hh \
+ /home/xinyi/sim/run.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh

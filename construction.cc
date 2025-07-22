@@ -51,12 +51,12 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4VPhysicalVolume *physWorld = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.),logicWorld,"physWorld",0, false, 0, true);
 
     
-
+/*
     G4Box *solidRadiator = new G4Box("solideRadiator",0.4*m,0.4*m,0.01*m);
 
     G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator,Aerogel,"logicalRadiator");
 
-    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.25*m),logicRadiator,"physRadiator",logicWorld,false,0,true);
+    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.25*m),logicRadiator,"physRadiator",logicWorld,false,0,true);*/
 
 /*
     //water
@@ -69,7 +69,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
     G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.25*m),logicRadiator,"physRadiator",logicWorld,false,0,true);*/
 
-/*    //lead detector
+    //lead detector
 
     G4Material *lead = nist->FindOrBuildMaterial("G4_Pb");
 
@@ -78,7 +78,6 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator,lead,"logicalRadiator");
 
     G4VPhysicalVolume *physRadiator = new G4PVPlacement(0,G4ThreeVector(0.,0.,0.25*m),logicRadiator,"physRadiator",logicWorld,false,0,true);
-*/
 
 /*
     //silicon detector

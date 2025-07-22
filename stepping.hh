@@ -16,6 +16,7 @@ public:
     ~MySteppingAction();
     
     virtual void UserSteppingAction(const G4Step*);
+    std::ofstream outFile;
     
 private:
     MyEventAction *fEventAction;

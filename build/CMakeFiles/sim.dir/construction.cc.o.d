@@ -577,4 +577,13 @@ CMakeFiles/sim.dir/construction.cc.o: /home/xinyi/sim/construction.cc \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4RunManagerKernel.hh \
  /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/rundefs.hh \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
- /usr/include/c++/13/bits/list.tcc
+ /usr/include/c++/13/bits/list.tcc /home/xinyi/sim/stepping.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Gamma.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Electron.hh \
+ /home/xinyi/sim/event.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserEventAction.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4Event.hh \
+ /home/xinyi/sim/run.hh \
+ /home/xinyi/software/geant4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh
